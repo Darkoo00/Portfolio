@@ -1,0 +1,222 @@
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+}
+
+.section-one {
+
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 4px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative; /* Ensure proper height setting */
+}
+
+.img-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+.img-title-container h2 ,.bio-container h2{
+    font-family: fa;
+    font-size: 40px;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 800px; /* Adjust the height as needed */
+    position: relative; /* Positioning for pseudo-element */
+    overflow: hidden; /* Ensure child elements don't overflow */
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.img::before {
+    /* background-color: inherit; */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-image: url('../assets/Darko-removebg-preview.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%; /* Make the shape circular */
+    filter: drop-shadow(5px 5px 5px #dfc0c0);
+}
+.bio-container {
+    width: 99%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-container h2 {
+    
+    justify-self: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:  15px 10px;
+    
+    /* Adjust spacing between bios */
+}
+.bio p {
+    font-family: 'mer';
+    width: 70%;
+    font-size: 30px;
+    text-align: justify;
+    padding: 10px;
+   text-align-last: center;
+    
+}
+
+.bio-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.icon img {
+
+    height: 120px;
+}
+
+.full-width-line {
+    width: 100%;
+    height: 2px; /* Adjust the height as needed */
+    background-color: black; /* Change the color as needed */
+    border: none; /* Remove the default border */
+    margin: 10px 0;
+}
+
+.section-two {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    margin: 4px 4px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work-certificate{
+    display: flex;
+    flex-direction: row;
+}
+
+.work-experience-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.h2-work-experience-container {
+    font-family: fa;
+    font-size: 40px;
+}
+.line {
+        background-color: black;
+            height:1200px;
+            width: 3px;
+}
+
+.work-experience-detail {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-item {
+    height: auto;
+    width: 70%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 4px double black; /* Add border to each work item */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.work-itemm {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: 4px double black; /* Add border to each work item */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-item h2 {
+    font-weight: 0;
+    font-family: 'fa';
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0; /* Remove margin for h2 */
+}
+
+/* .work-item p {
+    font-size: 13px;
+    width: fit-content;
+    padding: 5px;
+    margin-top: 5px; 
+   align-self: flex-end;
+    background-color: aqua;
+} */
+.date- {
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 20px;
+    width: fit-content;
+    padding: 5px;
+    margin-top: 5px; 
+   align-self: flex-end;
+
+}
+
+
+.p-work-item  {
+    margin: 10px 0px 0px 0px;
+    font-size: 23px;
+    text-align: justify;
+    font-weight: 200;
+    font-family: 'mer';
+}

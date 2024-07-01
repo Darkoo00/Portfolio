@@ -1,0 +1,16 @@
+body {
+     /* font-family: "Playwrite ID", cursive; */
+     font-family: 'lock' , sans-serif;
+     font-family: "Playwrite DE Grund", cursive;
+     font-optical-sizing: auto;
+     height: 100vh;
+     margin: 0;
+     padding: 0;
+     background: rgb(150, 130, 110); /* Fallback color */
+     background: linear-gradient(to left, rgba(150, 130, 110, 1) 0%, rgba(201, 170, 133, 1) 100%);
+     background-size: cover;
+
+
+   
+     /* background-color: red; */
+}

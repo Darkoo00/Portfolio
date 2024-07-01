@@ -1,0 +1,38 @@
+/* src/styles/fonts.css */
+@font-face {
+    font-family: 'lock';
+    src: url('./Fonts//berthold\ mainzer\ fraktur\ gesperrt\ unz1a.ttf') format('woff2'),
+         url('./Fonts/berthold\ mainzer\ fraktur\ unz1a.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fa';
+    src: url('./Fonts//mlmonstrolino.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mer';
+    src: url('./Fonts/merriweather-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cardif';
+    src: url('./Fonts/cardif__.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Example usage */
+body {
+    font-family: 'lock', sans-serif;
+    
+}
